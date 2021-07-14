@@ -1,16 +1,8 @@
-/*
-//Prendo dal form il nome dell'utente e lo tengo come variabile
-var userName = document.getElementById('inputName').value;
-
-// Prendo dal form il cognome dell'utente e lo tengo come variabile
-var userSurname = document.getElementById('inputSurname').value;
-
-// Prendo dal form il colore preferito dell'utente e lo tengo come variabile
-var userFavColor = document.getElementById('inputFavColor').value;
-
-*/
 document.getElementById('generatePasswordButton').addEventListener('click', function () {
-	document.getElementById('pwdResult').value = 'Password generata: ' + document.getElementById('inputName').value + document.getElementById('inputSurname').value + document.getElementById('inputFavColor').value + '21';
+	var userName = document.getElementById('inputName').value;
+	var userSurname = document.getElementById('inputSurname').value;
+	var userFavColor = document.getElementById('inputFavColor').value;
+	document.getElementById('pwdResult').value = 'Password generata: ' + userName + userSurname + userFavColor + '21';
 });
 
 function formReset() {
