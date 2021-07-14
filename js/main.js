@@ -7,4 +7,4 @@ var userSurname = prompt('Inserisci il tuo cognome');
 // Chiedo all'utente il suo colore preferito e lo tengo come variabile
 var userFavColor = prompt('Inserisci il tuo colore preferito');
 
-document.getElementById('pwdResult').innerHTML = 'Password generata: ' + userName + userSurname + UserFavColor + '21';
+document.getElementById('pwdResult').innerHTML = 'Password generata: ' + userName + userSurname + userFavColor + '21';
